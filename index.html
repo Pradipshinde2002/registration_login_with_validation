@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+  </head>
+  <body>
+    <form
+      action="success.html"
+      name=""
+      id="form1"
+      onsubmit="return onSubmitHandler()"
+    >
+    <div id="MainDiv">
+      <h2>Registration Form</h2>
+
+      <label for="fname">Enter Full Name</label>
+      <div>
+        <input
+        type="text"
+        name="fname"
+        id="fname1"
+        placeholder="Enter Full Name"
+      
+      />
+
+      <span id="spanIdfname"></span>
+      </div> 
+      <span id="errFullname"></span>
+      <br />
+
+
+
+      <label for="email1">Enter Email</label>
+      <div>
+        <input type="email" name="email1" id="txt1" placeholder="Enter Email" />
+
+        <span id="spanId"></span>
+      </div>
+      <span id="errEmail"></span>
+      
+      <br />
+
+
+      <label for="pass">Enter Password</label>
+      <div>
+        <input type="text" name="pass" id="txt2" placeholder="Enter Password" />
+
+        <span id="spanId1"></span>
+      </div>
+      <span id="errPass"></span>
+      <br />
+
+      <label for="cpass">Enter Confirm Password</label>
+      <div>
+        <input
+        type="text"
+        name="cpass"
+        id="txt3"
+        placeholder="Enter Confirm Password"
+      />
+
+      <span id="spanId2"></span>
+
+      </div>
+      <span id="errCpass"></span>
+      <br />
+
+      <!-- age input -->
+      <label for="cpass">Enter Age</label>
+      <div>
+        <input
+        type="text"
+        name="agepass"
+        id="age1"
+        placeholder="Enter Age"
+      />
+
+      <span id="spanIdage"></span>
+
+      </div>
+      <span id="erragepass"></span>
+      <br />
+
+      <!-- mobile number -->
+
+      <label for="number1">Enter Mobile No</label>
+      <div>
+        <input
+        type="text"
+        name="number1"
+        id="txt4"
+        placeholder="Enter Number"
+      />
+
+      <span id="spanId3"></span>
+
+
+      </div>
+      <span id="errNum"></span>
+      <br />
+
+
+
+      <label for="dob">Enter DOB</label>
+      <input type="date" name="dob" placeholder="Enter DOB" width="150px" id="dobId">
+      <br>
+
+      <form action="" >
+        <label for="city">Select City</label>
+        <select name="city" id="city" required>
+          <option value="">select city</option>
+          <optgroup label="Maharashtra">
+            <option value="solapur">Solapur</option>
+            <option value="Pune">Pune</option>
+            <option value="Ahmadnagar">Ahmadnagar</option>
+            <option value="Mumbai">Mumbai</option>
+          </optgroup>
+
+
+          <optgroup label="Gujarat">
+            <option value="Ahmadabad">Ahmadabad</option>
+            <option value="Amreli">Amreli</option>
+            <option value="Bharuch">Bharuch</option>
+            <option value="Dwarka">Dwarka</option>
+          </optgroup>
+
+          <optgroup label="Haryana">
+            <option value="Panipat">Panipat</option>
+            <option value="Faridabad">Faridabad</option>
+            <option value="Gurugram">Gurugram</option>
+            <option value="Sonipat">Sonipat</option>
+          </optgroup>
+
+          <optgroup label="Bihar">
+            <option value="Patna">Patna</option>
+            <option value="Jamalpur">Jamalpur</option>
+            <option value="Dehri">Dehri</option>
+            <option value="Barauni">Barauni</option>
+          </optgroup>
+        </select>
+      </form>
+      <br>
+
+
+      <div>
+        <span >Gender :</span>
+        <input type="radio" id="male" name="fav_language" value="male" required/> 
+      <label for="male">male</label>  
+      <input type="radio" id="female" name="fav_language" value="female" /> 
+      <label for="female">female</label>
+      </div><br>
+      
+
+      <div id="btns">
+        <button style="background-color: green; color: aliceblue; height: 30px; border-radius: 15px;">Register</button>
+        <button style="background-color: red; color: aliceblue; height: 30px; border-radius: 15px;">Reset</button>
+        <a href="login_Page.html">Go to login</a>
+      </div >
+      
+
+    </div>
+      
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

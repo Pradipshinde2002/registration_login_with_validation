@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form
+      action="success1.html"
+      name=""
+      id="form2"
+      onsubmit="return onLoginHandler()"
+    >
+    <div id="MainDiv">
+        <img src="login image.png" alt="login" srcset="" height="150px" width="150px">
+      <h2>Login Here</h2>
+
+      <label for="email1">Enter Email</label>
+      <div>
+        <input type="email" name="email1" id="txt1" placeholder="Enter Email" required/>
+
+        <span id="spanId"></span>
+      </div>
+      <span id="errEmail1"></span>
+      
+      <br />
+
+
+      <label for="pass">Enter Password</label>
+      <div>
+        <input type="text" name="pass" id="txt6" placeholder="Enter Password" required />
+
+        <span id="spanId1"></span>
+      </div>
+      <span id="errPass1"></span>
+      <br />
+
+      <button style="background-color: red; height: 30px; width: 150px; border-radius: 10px; color: white;" >Login</button><br>
+
+      <a href="Registration.html">Create an account</a>
+      <a href="#">Forget Password</a>
+</div>
+</form>
+    <script src="script1.js"></script>
+</body>
+</html>
